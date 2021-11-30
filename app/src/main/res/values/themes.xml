@@ -12,5 +12,15 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="android:textSize">18dp</item>
     </style>
+
+    <style name="Theme.MyNewButtonWidthStyle" parent="Widget.MaterialComponents.Button.Icon">
+        <item name="android:width">240dp</item>
+    </style>
+
+    <style name="Theme.MyNewButtonSizeStyle" parent="Theme.MyNewButtonWidthStyle">
+        <item name="android:height">60dp</item>
+    </style>
+
 </resources>
